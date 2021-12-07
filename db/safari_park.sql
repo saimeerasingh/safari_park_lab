@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS staffs;
+
+CREATE TABLE staffs(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    
+)
